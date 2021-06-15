@@ -1,0 +1,28 @@
+:root{
+    --backgroundPagina: #E4E4E4;
+    --backgroundItem: #FFFFFF; 
+    --colorBarra: #009688;
+    --colorBarraFondo: #F1F1F1;
+    --colorText: #757575;
+}
+html {
+    /* Reset para rems 62.5% = 10px */
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    border: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+}
+.wrapper{
+    width: inherit;
+    border: 1px solid black;
+}
