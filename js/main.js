@@ -31,3 +31,13 @@ const handChangeWidth5 = () => {
     style.setProperty('--width5', value);
     console.log(value);
 }
+const handChangeWidth6 = () => {
+    value = document.getElementById('selectWidth6').value;
+    style.setProperty('--width6', value);
+    console.log(value);
+}
+const handChangeWidth7 = () => {
+    value = document.getElementById('selectWidth7').value;
+    style.setProperty('--width7', value);
+    console.log(value);
+}

@@ -11,6 +11,8 @@
     --width3: 0%;
     --width4: 0%;
     --width5: 0%;
+    --width6: 0%;
+    --width7: 0%;
     --colorInput: #e1e1e1;
 }
 html {
@@ -115,6 +117,12 @@ figure img{
 /*Barra 5*/
 #barralanguage1{
     width: var(--width5);
+}
+#barralanguage2{
+    width: var(--width6);
+}
+#barralanguage3{
+    width: var(--width7);
 }
 input:not([type="submit"]),
 textarea,
