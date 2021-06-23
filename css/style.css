@@ -82,7 +82,14 @@ figure{
     margin: 0;
 }
 figure img{
+    position: relative;
     width: 100%;
+    height: 100%;
+}
+.name-profile{
+    position: absolute;
+    top: 18%;
+    color: white;
 }
 .contacto i, .habilidades i, .idiomas i{
     color: var(--colorIconG);
